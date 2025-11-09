@@ -1,0 +1,24 @@
+{
+  "name": "petya-blocks-library",
+  "version": "1.0.0",
+  "description": "Petya Block Library is a Wordpress plugin that provides a collection of custom blocks for the block editor.",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "wp-scripts build --experimental-modules",
+    "format": "wp-scripts format",
+    "lint:css": "wp-scripts lint-style",
+    "lint:js": "wp-scripts lint-js",
+    "packages-update": "wp-scripts packages-update",
+    "plugin-zip": "wp-scripts plugin-zip",
+    "start": "wp-scripts start --experimental-modules"
+  },
+  "files": [
+    "[^.]*"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/scripts": "^30.27.0"
+  }
+}
