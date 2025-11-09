@@ -1,0 +1,31 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 3,
+    "name": "petya-block-library/tab",
+    "version": "1.0.0",
+    "title": "Tab",
+    "category": "petya-blocks",
+    "icon": "media-interactive",
+    "description": "Single tab to be used with tabs block",
+    "example": {},
+    "supports": {
+        "interactivity": true
+    },
+    "attributes": {
+        "id": {
+            "type": "string",
+            "default": ""
+        },
+        "label": {
+            "type": "string",
+            "default": "Tab"
+        }
+    },
+    "usesContext": [
+        "petya-block-library/activeTabId"
+    ],
+    "textdomain": "petya-block-library",
+    "editorScript": "file:./index.js",
+    "style": "file:./style-index.css",
+    "render": "file:./render.php"
+}
